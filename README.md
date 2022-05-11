@@ -1,5 +1,11 @@
 ### GO-PROTO
 
+#### PROTOC INSTALL
+Download following link and add environment path
+```bash
+https://github.com/protocolbuffers/protobuf/releases/tag/v3.20.1
+```
+
 #### BUILD
 ```bash
 protoc --go_out=./protos ./protos/*.proto
