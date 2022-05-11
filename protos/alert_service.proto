@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package AlertProto;
+
+option go_package = "./;alert_service_proto";
+
+message AlertStreamData {
+  string operator = 1;
+  string value = 2;
+}
